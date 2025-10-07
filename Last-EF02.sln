@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-ConnectionString", "EF-ConnectionString\EF-ConnectionString.csproj", "{40C762C2-35A4-4309-AB69-F71FF4494CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-ExcuteRawSql", "EF-ExcuteRawSql\EF-ExcuteRawSql.csproj", "{732EB5B1-15CF-4A2D-AB60-87F55C1D07E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-InsertRawSql", "EF-InsertRawSql\EF-InsertRawSql.csproj", "{6C4AC2A9-15A1-4021-939E-56E8BB3783E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-ExcuteScaler", "EF-ExcuteScaler\EF-ExcuteScaler.csproj", "{5F2EB2F7-5C30-4FFD-82CC-6A752278EFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-ExecuteInsertStoredProcedure", "EF-ExecuteInsertStoredProcedure\EF-ExecuteInsertStoredProcedure.csproj", "{F7E82577-3537-45A3-8B1F-73E789B598A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-ExecuteUpdateRawSql", "EF-ExecuteUpdateRawSql\EF-ExecuteUpdateRawSql.csproj", "{EA73EFC4-2D4C-49A4-9B21-BDB2D9BB1EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-ExecuteDeleteRawSql", "EF-ExecuteDeleteRawSql\EF-ExecuteDeleteRawSql.csproj", "{73E34B02-7F68-4532-81CB-CB462094AE2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40C762C2-35A4-4309-AB69-F71FF4494CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C762C2-35A4-4309-AB69-F71FF4494CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C762C2-35A4-4309-AB69-F71FF4494CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C762C2-35A4-4309-AB69-F71FF4494CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732EB5B1-15CF-4A2D-AB60-87F55C1D07E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732EB5B1-15CF-4A2D-AB60-87F55C1D07E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732EB5B1-15CF-4A2D-AB60-87F55C1D07E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732EB5B1-15CF-4A2D-AB60-87F55C1D07E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4AC2A9-15A1-4021-939E-56E8BB3783E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4AC2A9-15A1-4021-939E-56E8BB3783E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4AC2A9-15A1-4021-939E-56E8BB3783E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4AC2A9-15A1-4021-939E-56E8BB3783E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2EB2F7-5C30-4FFD-82CC-6A752278EFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2EB2F7-5C30-4FFD-82CC-6A752278EFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2EB2F7-5C30-4FFD-82CC-6A752278EFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2EB2F7-5C30-4FFD-82CC-6A752278EFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E82577-3537-45A3-8B1F-73E789B598A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E82577-3537-45A3-8B1F-73E789B598A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E82577-3537-45A3-8B1F-73E789B598A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E82577-3537-45A3-8B1F-73E789B598A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA73EFC4-2D4C-49A4-9B21-BDB2D9BB1EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA73EFC4-2D4C-49A4-9B21-BDB2D9BB1EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA73EFC4-2D4C-49A4-9B21-BDB2D9BB1EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA73EFC4-2D4C-49A4-9B21-BDB2D9BB1EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E34B02-7F68-4532-81CB-CB462094AE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E34B02-7F68-4532-81CB-CB462094AE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E34B02-7F68-4532-81CB-CB462094AE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E34B02-7F68-4532-81CB-CB462094AE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68B8632-0103-4F80-9554-15AAF9D15CED}
+	EndGlobalSection
+EndGlobal
